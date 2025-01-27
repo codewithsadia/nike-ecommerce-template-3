@@ -7,7 +7,7 @@ import Card from './Cards/Card';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
-import { fetchProductListByAirMax } from '../api/productApi';
+//import { fetchProductListByAirMax } from '../api/productApi';
 import { ProductCardTypes } from '../@types/types';
 
 const ProductSlider = () => {
