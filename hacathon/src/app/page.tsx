@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import nikeBanner from "@public/images/nike-banner.jpg";
+import nikeBanner from "../../public/images/categories-thumbnail/nike-banner.jpg";
 import featureBanner from "../../public/images/categories-thumbnail/featured-banner.jpg";
 import dontMissBanner from "../../public/images/categories-thumbnail/dont-miss-banner.jpg";
 import mensThumbnail from "../../public/images/categories-thumbnail/mens-thumbnail.jpg";

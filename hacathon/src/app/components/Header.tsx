@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import topLogo from "../../../public/images/logo/toplogo.png";
-import logo from "@public/images/logo/logo.svg";
+import logo from "../../../public/images/logo/toplogo.png";
 import wishlistIcon from "../../../public/images/icons/wishlist.svg";
 import cartIcon from "../../../public/images/icons/cart.svg";
 import searchIcon from "../../../public/images/icons/search.svg";
