@@ -1,14 +1,14 @@
 "use client"
 import React, {useEffect, useRef, useState} from 'react';
 import Slider from "react-slick";
-import arrowRightIcon from "@public/images/icons/right-arrow.svg";
-import arrowLeftIcon from "@public/images/icons/left-arrow.svg";
+import arrowRightIcon from "../../../public/images/icons/right-arrow.svg";
+import arrowLeftIcon from "../../../public/images/icons/left-arrow.svg";
 import Card from './Cards/Card';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
 import { ProductCardTypes } from '../@types/types';
-import { fetchProductListByWomens } from '../api/productApi';
+import { fetchProductListByWomens } from "../api/productApi";
 
 const ShopWomensSlider = () => {
     const sliderRef = useRef<Slider | null>(null);
