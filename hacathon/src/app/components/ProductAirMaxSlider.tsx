@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
-import { Slider } from 'react-slick';
+import Slider from 'react-slick';
 import arrowRightIcon from "../../../public/images/icons/right-arrow.svg";
 import arrowLeftIcon from "../../../public/images/icons/left-arrow.svg";
 import Card from './Cards/Card';
