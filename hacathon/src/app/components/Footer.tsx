@@ -22,19 +22,19 @@ const Footer = () => {
           </ul>
           <ul className='w-full md:w-auto'>
             <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>Get Help</Link></li>
-            <li><Link className='text-white text-primary-gray text-xs leading-[50px] uppercase' href='#'>Order Status</Link></li>
-            <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>Delivery</Link></li>
-            <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>Returns</Link></li>
-            <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>Payment Options</Link></li>
-            <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>Contact Us On Nike.com Inquiries</Link></li>
-            <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>Contact Us On All Other Inquiries</Link></li>
+            <li><Link className='text-gray-500 text-primary-gray text-xs leading-[50px] uppercase' href='#'>Order Status</Link></li>
+            <li><Link className='text-gray-500 text-xs leading-[50px] uppercase' href='#'>Delivery</Link></li>
+            <li><Link className='text-gray-500 text-xs leading-[50px] uppercase' href='#'>Returns</Link></li>
+            <li><Link className='text-gray-500 text-xs leading-[50px] uppercase' href='#'>Payment Options</Link></li>
+            <li><Link className='text-gray-500 text-xs leading-[50px] uppercase' href='#'>Contact Us On Nike.com Inquiries</Link></li>
+            <li><Link className='text-gray-500 text-xs leading-[50px] uppercase' href='#'>Contact Us On All Other Inquiries</Link></li>
           </ul>
           <ul className='w-full md:w-auto'>
             <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>About Nike</Link></li>
-            <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>News</Link></li>
-            <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>Careers</Link></li>
-            <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>Investors</Link></li>
-            <li><Link className='text-white text-xs leading-[50px] uppercase' href='#'>Sustainability</Link></li>
+            <li><Link className='text-gray-500 text-xs leading-[50px] uppercase' href='#'>News</Link></li>
+            <li><Link className='text-gray-500 text-xs leading-[50px] uppercase' href='#'>Careers</Link></li>
+            <li><Link className='text-gray-500 text-xs leading-[50px] uppercase' href='#'>Investors</Link></li>
+            <li><Link className='text-gray-500 text-xs leading-[50px] uppercase' href='#'>Sustainability</Link></li>
           </ul>
         </div>
         <div className='col-span-12 lg:col-span-6 flex justify-end '>
@@ -68,14 +68,14 @@ const Footer = () => {
             <Image src={locationWhiteIcon} alt='Location Icon'/>
             <p className='text-white ps-4'>India</p>
           </div>
-          <p className='text-white ps-8'>© 2023 Nike, Inc. All Rights Reserved</p>
+          <p className='text-gray-500 ps-8'>© 2023 Nike, Inc. All Rights Reserved</p>
         </div>
         <div className='col-span-12 lg:col-span-6'>
           <ul className='flex space-x-10 justify-end flex-wrap'>
-            <li><Link className='text-white' href='#'>Guides</Link></li>
-            <li><Link className='text-white' href='#'>Terms of Sale</Link></li>
-            <li><Link className='text-white' href='#'>Terms of Use</Link></li>
-            <li><Link className='text-white' href='#'>Nike Privacy Policy</Link></li>
+            <li><Link className='text-gray-500' href='#'>Guides</Link></li>
+            <li><Link className='text-gray-500' href='#'>Terms of Sale</Link></li>
+            <li><Link className='text-gray-500' href='#'>Terms of Use</Link></li>
+            <li><Link className='text-gray-500' href='#'>Nike Privacy Policy</Link></li>
           </ul>
         </div>
       </div>
