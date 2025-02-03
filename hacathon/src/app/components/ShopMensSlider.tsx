@@ -1,13 +1,11 @@
 "use client"
 import React, {useEffect, useRef, useState} from 'react';
-import Slider from "react-slick";
-import arrowRightIcon from "@public/images/icons/right-arrow.svg";
-import arrowLeftIcon from "@public/images/icons/left-arrow.svg";
+import Slider from "react-server-dom-webpack/server.edge";
+import arrowRightIcon from "../../../public/images/icons/right-arrow.svg";
+import arrowLeftIcon from "../../../public/images/icons/left-arrow.svg";
 import Card from './Cards/Card';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
-import { fetchProductListByMens } from '../api/productApi';
+import { fetchProductListByMens } from '../api/nike-products/productApi';
 import { ProductCardTypes } from '../@types/types';
 
 const ShopMensSlider = () => {

@@ -1,7 +1,7 @@
 'use client'
 import { CartContextType, ProductCardTypes, ProductListTypes } from "@/app/@types/types";
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { toast, Bounce } from 'react-toastify';
+import { toast, Bounce } from 'react-server-dom-webpack/server.edge';
 
 // Create context to manage the cart state
 const CartContext = createContext<CartContextType | undefined>(undefined);

@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import twitterIcon from "@public/images/icons/twitter.svg";
-import facebookIcon from "@public/images/icons/facebook.svg";
-import youtubeIcon from "@public/images/icons/youtube.svg";
-import instagramIcon from "@public/images/icons/instagram.svg";
-import locationWhiteIcon from "@public/images/icons/location-white.svg";
+import twitterIcon from "../../../public/images/icons/twitter.svg";
+import facebookIcon from "../../../public/images/icons/facebook.svg";
+import youtubeIcon from "../../../public/images/icons/youtube.svg";
+import instagramIcon from "../../../public/images/icons/instagram.svg";
+import locationWhiteIcon from "../../../public/images/icons/location-white.svg";
 
 
 const Footer = () => {

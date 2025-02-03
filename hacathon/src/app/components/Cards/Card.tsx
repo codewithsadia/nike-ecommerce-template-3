@@ -8,8 +8,7 @@ import { IoEyeOutline } from "react-icons/io5";
 import Button from "../Button";
 import { ProductCardTypes } from "@/app/@types/types";
 import { useCart } from "@/context/CartContext";
-import { toast, Bounce } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast, Bounce } from 'react-server-dom-webpack/server.edge';
 
 
 const Card: React.FC<ProductCardTypes> = ({_id, status, name, color, currentPrice, discountedPrice, shortDescription, image_url }) => {
