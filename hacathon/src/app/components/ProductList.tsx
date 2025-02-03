@@ -1,8 +1,10 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import Card from './Cards/Card';
+import Slider from "react-slick";
 import { fetchProductList } from '../api/productApi';
 import { ProductCardTypes } from '../@types/types';
+
 
 // Skeleton Loader Component for Products
 const ProductSkeletonLoader = () => {

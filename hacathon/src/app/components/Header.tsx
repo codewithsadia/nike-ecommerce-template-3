@@ -1,8 +1,13 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
+<<<<<<< HEAD
 import topLogo from "../../../public/images/logo/favicon.svg";
 import logo from "../../../public/images/logo/logo.svg";
+=======
+import topLogo from "../../../public/images/logo/toplogo.png";
+import logo from "../../../public/images/logo/toplogo.png";
+>>>>>>> d2279559e34aa55aa5f93536c6dd07da46fbc730
 import wishlistIcon from "../../../public/images/icons/wishlist.svg";
 import cartIcon from "../../../public/images/icons/cart.svg";
 import searchIcon from "../../../public/images/icons/search.svg";
@@ -21,11 +26,10 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-
   return (
     <div>
       <div className="hidden lg:block">
-        <div className="flex justify-between items-center px-10 bg-light-gray">
+        <div className="flex justify-between items-center px-10 bg-gray-200">  {/* Top Navbar: Light Gray */}
           <Image src={topLogo} alt="Top Logo" />
 
           <ul className="flex space-x-6 py-3">
@@ -51,7 +55,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="flex px-10 justify-between items-center py-4">
+        <div className="flex px-10 justify-between items-center py-4 bg-white">  {/* Middle Navbar: White */}
           <Link href="/">
             <Image src={logo} alt="Logo" />
           </Link>
@@ -76,10 +80,10 @@ const Header = () => {
             </li>
           </ul>
           <div className="flex space-x-6">
-            <div className="flex px-4 py-3 rounded-full w-[64%] bg-light-gray">
+            <div className="flex px-4 py-3 rounded-full w-[64%] bg-gray-200">  {/* Search Bar: Light Gray */}
               <Image src={searchIcon} alt="search" />
               <input
-                className="pl-4 focus-visible:outline-none w-[64%] bg-light-gray"
+                className="pl-4 focus-visible:outline-none w-[64%] bg-gray-200"
                 type="text"
                 placeholder="Search"
               />
@@ -98,7 +102,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="lg:hidden px-10 py-4 flex justify-between items-center">
+      <div className="lg:hidden px-10 py-4 flex justify-between items-center bg-gray-200">  {/* Bottom Navbar: Light Gray */}
         <Link href="/">
           <Image src={logo} alt="Logo" />
         </Link>
@@ -125,7 +129,7 @@ const Header = () => {
         }`}
       >
         <div
-          className={`bg-white w-3/4 h-full p-6 transition-transform duration-300 ease-in-out transform  overflow-y-scroll ${
+          className={`bg-gray-200 w-3/4 h-full p-6 transition-transform duration-300 ease-in-out transform overflow-y-scroll ${
             isMenuOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
@@ -135,10 +139,10 @@ const Header = () => {
               <Image src={crossIcon} width={30} height={30} alt="Close" />
             </Link>
           </div>
-          <div className="flex px-4 py-3 mt-6 rounded-full w-[96%] bg-light-gray">
+          <div className="flex px-4 py-3 mt-6 rounded-full w-[96%] bg-gray-200">  {/* Search Bar: Light Gray */}
             <Image src={searchIcon} alt="search" />
             <input
-              className="pl-4 focus-visible:outline-none w-[64%] bg-light-gray"
+              className="pl-4 focus-visible:outline-none w-[64%] bg-gray-200"
               type="text"
               placeholder="Search"
             />

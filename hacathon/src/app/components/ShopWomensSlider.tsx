@@ -1,13 +1,23 @@
+<<<<<<< HEAD
 import React, { useEffect, useRef, useState } from 'react';
 import Slider from "react-slider"; // Changed to react-slick
 import "slick-carousel/slick/slick.css"; // Added import for slick-carousel styles
 import "slick-carousel/slick/slick-theme.css"; // Added import for slick-carousel theme
+=======
+"use client"
+import React, {useEffect, useRef, useState} from 'react';
+import Slider from "react-slick";
+>>>>>>> d2279559e34aa55aa5f93536c6dd07da46fbc730
 import arrowRightIcon from "../../../public/images/icons/right-arrow.svg";
 import arrowLeftIcon from "../../../public/images/icons/left-arrow.svg";
 import Card from './Cards/Card';
 import Image from 'next/image';
 import { ProductCardTypes } from '../@types/types';
+<<<<<<< HEAD
 import { fetchProductListByWomens } from '../api/nike-products/productApi';
+=======
+import { fetchProductListByWomens } from "../api/productApi";
+>>>>>>> d2279559e34aa55aa5f93536c6dd07da46fbc730
 
 const ShopWomensSlider = () => {
     const sliderRef = useRef<Slider | null>(null);

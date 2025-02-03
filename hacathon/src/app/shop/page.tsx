@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import filterIcon from "@public/images/icons/filter.svg";
-import dropdownIcon from "@public/images/icons/dropdown.svg";
+import filterIcon from "../../../public/images/icons/filter.svg";
+import dropdownIcon from "../../../public/images/icons/dropdown.svg";
 import Link from "next/link";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { fetchProductList, fetchProductsCategory } from "../api/productApi";
