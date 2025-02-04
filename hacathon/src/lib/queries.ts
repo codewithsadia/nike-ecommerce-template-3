@@ -3,7 +3,7 @@ import { defineQuery } from "next-sanity";
 
     export const allproducts = defineQuery(`
         *[_type == "product"]{
-            _id,
+           _id,
             name,
             description,
             price,
@@ -27,10 +27,9 @@ import { defineQuery } from "next-sanity";
             rating,
             ratingCount,
             tags,
-            sizes,
+           sizes,
             "imagUrl": image.asset->url
         }
     `)
-    
     
     

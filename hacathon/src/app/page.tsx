@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from ]"next/image";
 import Link from "next/link";
 import nikeBanner from "../../public/images/categories-thumbnail/nike-banner.jpg";
 import featureBanner from "../../public/images/categories-thumbnail/featured-banner.jpg";
@@ -125,7 +125,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-      </section>
+      </section>    
     </>
   );
 }

@@ -4,11 +4,10 @@ import Slider from 'react-slick';
 import arrowRightIcon from "../../../public/images/icons/right-arrow.svg";
 import arrowLeftIcon from "../../../public/images/icons/left-arrow.svg";
 import Card from './Cards/Card';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
 import { fetchProductListByAirMax } from "../api/productApi";
 import { ProductCardTypes } from '../@types/types';
+
 
 const ProductSlider = () => {
   const sliderRef = useRef<Slider | null>(null);
@@ -88,7 +87,7 @@ const ProductSlider = () => {
               image_url={product.image_url}
             />
           ))}
-        </Slider>
+        </Slider>        
       </div>
     </>
   );
