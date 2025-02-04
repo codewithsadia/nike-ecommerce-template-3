@@ -35,10 +35,10 @@ const Shoes = () => {
                 />
               )}
               <h1 className="text-lg font-semibold mt-4">
-                {product.productName}
+                {product.name}
               </h1>
               <p className="text-gray-500 mt-2">
-                {product.price ? `$${product.price}` : "Price not available"}
+                {product.price ? `${product.price}` : "Price not available"}
               </p>
             </Link>
           </div>
@@ -47,7 +47,4 @@ const Shoes = () => {
     </div>
   );
 };
-
-
-
 export default Shoes;
