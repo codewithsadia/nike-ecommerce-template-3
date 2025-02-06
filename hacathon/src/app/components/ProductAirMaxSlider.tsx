@@ -1,19 +1,11 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
-<<<<<<< HEAD
-import Slider from "react-server-dom-webpack/server.edge";
-=======
 import Slider from 'react-slick';
->>>>>>> d2279559e34aa55aa5f93536c6dd07da46fbc730
 import arrowRightIcon from "../../../public/images/icons/right-arrow.svg";
 import arrowLeftIcon from "../../../public/images/icons/left-arrow.svg";
 import Card from './Cards/Card';
 import Image from 'next/image';
-<<<<<<< HEAD
 import { fetchProductListByAirMax } from '../api/nike-products/productApi';
-=======
-import { fetchProductListByAirMax } from "../api/productApi";
->>>>>>> d2279559e34aa55aa5f93536c6dd07da46fbc730
 import { ProductCardTypes } from '../@types/types';
 
 

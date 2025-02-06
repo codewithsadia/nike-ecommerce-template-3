@@ -1,13 +1,8 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-<<<<<<< HEAD
 import topLogo from "../../../public/images/logo/favicon.svg";
 import logo from "../../../public/images/logo/logo.svg";
-=======
-import topLogo from "../../../public/images/logo/toplogo.png";
-import logo from "../../../public/images/logo/toplogo.png";
->>>>>>> d2279559e34aa55aa5f93536c6dd07da46fbc730
 import wishlistIcon from "../../../public/images/icons/wishlist.svg";
 import cartIcon from "../../../public/images/icons/cart.svg";
 import searchIcon from "../../../public/images/icons/search.svg";
