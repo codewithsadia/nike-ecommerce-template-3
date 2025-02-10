@@ -2,7 +2,7 @@
 import { client } from "@/sanity/lib/client";
 import { product } from "../../../../types/product";
 import { urlFor } from "@/sanity/lib/image";
-import { allproducts } from "@/lib/queries";
+import { allproducts } from "../../../sanity/schemaTypes/products";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";

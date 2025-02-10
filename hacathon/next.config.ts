@@ -1,13 +1,10 @@
-// next.config.js
-const nextConfig = {
-  experimental: {
-    reactRoot: true,
-    runtime: 'nodejs',
-    serverComponents: true,
-  },
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
   images: {
-    domains: ['cdn.sanity.io'], // Apne image hostnames yahan add karain
+    domains: ['*', 'cdn.sanity.io'],
   },
+  serverExternalPackages: ['react', 'react-dom'], // Updated key
 };
 
-module.exports = nextConfig;
+export default nextConfig;
