@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import nikeBanner from "../../public/images/categories-thumbnail/nike-banner.jpg";
@@ -11,6 +12,7 @@ import BannerSection from "./components/BannerSection";
 import ProductSlider from "./components/ProductAirMaxSlider";
 import ShopMensSlider from "./components/ShopMensSlider";
 import ShopWomensSlider from "./components/ShopWomensSlider";
+import SHOES from "./components/shoes/page";
 
 export default function Home() {
   return (
@@ -125,7 +127,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-      </section>    
+      </section>   
+      <SHOES/>
     </>
   );
 }
